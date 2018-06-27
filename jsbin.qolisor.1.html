@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by reionut (http://jsbin.com/qolisor/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <title>oscarTheLifetimeSupplier</title>
+</head>
+<body>
+<script id="jsbin-javascript">
+function oscarTheLifetimeSupplier (){
+  var oscar = alert ('Hi, my name is Oscar and I can help you calculate the exact amount of your favorite snack that would last for your lifetime.')
+  var age = prompt ('How old are you?');
+  var maxAge = prompt ('How long do you think you will live?')
+  var favouriteSnack = prompt ('What is your favorite snack?')
+  var quantityPerWeek = prompt ('How many do you eat per week?')
+  var totalSnacks = (quantityPerWeek * 52) * (maxAge - age)
+  alert ('In your case, you will need ' + totalSnacks + ' of snacks ' + favouriteSnack + ' until you reach the age of ' + maxAge +'.')
+  return;
+}
+oscarTheLifetimeSupplier ();
+</script>
+</body>
+</html>
